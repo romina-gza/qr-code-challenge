@@ -1,0 +1,57 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Roboto:wght@300;400&display=swap'); */
+* {
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    background-color: hsl(212, 45%, 89%);
+}
+.attribution {
+    font-size: 1.1rem;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 95vh;
+}
+.container {
+    background-color: hsl(0, 0%, 100%);
+    width: 30rem;
+    height: 45rem;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    border-radius: 5%;
+    text-align: center;
+}
+.container img {
+    width: 100%;
+    height: auto;
+    border-radius: 5%;
+}
+.container p:first-of-type{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 800; 
+    font-size: 2rem;
+    color: hsl(218, 44%, 22%);
+}
+.container p {
+    font-family: 'Outfit', sans-serif;
+    padding: 1.8rem 1rem 0rem;
+    font-size: 1.5rem;
+    color: hsl(220, 15%, 55%);
+}
+/* font-family: 'Outfit', sans-serif;
+*/ 
