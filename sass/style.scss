@@ -1,1 +1,46 @@
+//***Reser - Variables - Mixins***
 @import "./base/resets";
+@import "./utilities/variables";
+@import "./utilities/mixins";
+//***Media Queries***
+@import "./layout/mq-phone";
+@import "./layout/mq-desktop";
+
+body {
+  @include display-flex(column, center, center);
+  min-height: 100vh;
+  section {
+    @include display-flex(column, center, center);
+    height: 95vh;
+    margin: auto;
+    .container {
+      img {
+        width: 100%;
+        height: auto;
+        border-radius: 5%;
+      }
+      p {
+        font-family: $font-family;
+        padding: 1.8rem 1rem 0rem;
+        font-size: 1.5rem;
+        color: $grayish-blue;
+      }
+      p:first-of-type {
+        @extend p;
+        font-size: 2rem;
+        font-weight: 800;
+        color: $dark-blue;
+      }
+    }
+  }
+  .attribution {
+    font-size: 1.1rem;
+    @include display-flex(row, center, center);
+    margin: auto;
+    height: 5vh;
+    font-family: $font-family;
+    a {
+      color: hsl(228, 45%, 44%);
+    }
+  }
+}
