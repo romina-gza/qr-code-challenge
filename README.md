@@ -60,7 +60,7 @@ desafiant to me yet.
 }
 ```
 
-SCSS was difficult at first, today i use it and i love it, but how i am starting to work with it when i begin another project i forget some tags.
+SCSS was difficult at first, today i use it and i love it, but as i am starting to work with it when i begin another project i forget some tags.
 
 ```scss
 //SCSS
@@ -76,7 +76,7 @@ body {
 I want to perfect all that i learned even now and this is HTML, CSS and i want deeped SCSS, Movil first and Java Script. I can't connect JS with HTML yet but is something that i have plan to do.
 
 ### Useful resources
-how i am starting i was searching on internet:
+As i am starting i was searching on internet:
 
 - [Sass, El Manual Oficial](https://uniwebsidad.com/libros/sass/capitulo-1) - This helped to use SCSS, i check it when i forget how to use it.
 - [Movil-first vs Desktop-first](https://joegalley.com/articles/mobile-first-vs-desktop-first-media-queries) - And this link is about "mobile-first", with this information i understood how to applicate it in my projects.
