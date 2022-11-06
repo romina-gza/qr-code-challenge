@@ -52,7 +52,7 @@ desafiant to me yet.
 .proud-of-this-css {
   color: papayawhip;
 }
-/* Movil First */
+/* Mobile First */
 @media (min-width: 320px) and (max-width: 576px) {
   body {
     background-color: hotpink;
@@ -79,7 +79,7 @@ I want to perfect all that i learned even now and this is HTML, CSS and i want d
 As i am starting i was searching on internet:
 
 - [Sass, El Manual Oficial](https://uniwebsidad.com/libros/sass/capitulo-1) - This helped to use SCSS, i check it when i forget how to use it.
-- [Movil-first vs Desktop-first](https://joegalley.com/articles/mobile-first-vs-desktop-first-media-queries) - And this link is about "mobile-first", with this information i understood how to applicate it in my projects.
+- [Mobile-first vs Desktop-first](https://joegalley.com/articles/mobile-first-vs-desktop-first-media-queries) - And this link is about "mobile-first", with this information i understood how to applicate it in my projects.
 
 
 ## Author
